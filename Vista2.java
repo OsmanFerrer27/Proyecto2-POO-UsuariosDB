@@ -99,37 +99,37 @@ public class Vista2 extends JFrame {
 
 		txtCedula = new JTextField();
 		txtCedula.setFont(new Font("Arial", Font.PLAIN, 16));
-		txtCedula.setBounds(173, 102, 155, 20);
+		txtCedula.setBounds(175, 105, 155, 20);
 		this.panelContenido2.add(txtCedula);
 		txtCedula.setColumns(10);
 
 		txtNombre = new JTextField();
 		txtNombre.setFont(new Font("Arial", Font.PLAIN, 16));
 		txtNombre.setColumns(10);
-		txtNombre.setBounds(173, 135, 155, 20);
+		txtNombre.setBounds(175, 135, 155, 20);
 		this.panelContenido2.add(txtNombre);
 
 		txtDireccion = new JTextField();
 		txtDireccion.setFont(new Font("Arial", Font.PLAIN, 16));
 		txtDireccion.setColumns(10);
-		txtDireccion.setBounds(173, 168, 155, 20);
+		txtDireccion.setBounds(175, 170, 155, 20);
 		this.panelContenido2.add(txtDireccion);
 
 		txtEdad = new JTextField();
 		txtEdad.setFont(new Font("Arial", Font.PLAIN, 16));
 		txtEdad.setColumns(10);
-		txtEdad.setBounds(173, 203, 155, 20);
+		txtEdad.setBounds(175, 205, 155, 20);
 		this.panelContenido2.add(txtEdad);
 
 		txtEmail = new JTextField();
 		txtEmail.setFont(new Font("Arial", Font.PLAIN, 16));
 		txtEmail.setColumns(10);
-		txtEmail.setBounds(173, 236, 155, 20);
+		txtEmail.setBounds(175, 235, 155, 20);
 		this.panelContenido2.add(txtEmail);
 
 		cbGenero = new JComboBox<String>();
 		cbGenero.setModel(new DefaultComboBoxModel<String>(new String[] { "", "M", "F" }));
-		cbGenero.setBounds(173, 271, 155, 20);
+		cbGenero.setBounds(175, 270, 155, 20);
 		this.panelContenido2.add(cbGenero);
 
 		JButton btnAgregar = new JButton("Agregar");
